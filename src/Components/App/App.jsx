@@ -58,7 +58,7 @@ class App extends React.Component{
     }
 
     componentDidMount(){
-      this.fetchNewParagraph();
+      this.fetchNewParagraphfallback();
     }
 
     startTimer=()=>{
